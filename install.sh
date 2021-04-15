@@ -134,3 +134,5 @@ sudo pip3 install docker-compose=="${DOCKER_COMPOSE_VERSION}"
 pip install docker-compose
 
 sudo -H pip install -U jetson-stats
+
+pip install redis

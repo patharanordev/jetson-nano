@@ -399,6 +399,12 @@ pip install docker-compose
 sudo -H pip install -U jetson-stats
 ```
 
+### **Redis**
+
+```bash
+pip install redis
+```
+
 ### **Object detection**
 
 Coming soon...
