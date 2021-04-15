@@ -391,6 +391,7 @@ sudo apt-get install libhdf5-dev
 sudo apt-get install libssl-dev
 sudo pip3 install docker-compose=="${DOCKER_COMPOSE_VERSION}"
 pip install docker-compose
+sudo usermod -aG docker $USER
 ```
 
 ### **jtop**
