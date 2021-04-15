@@ -126,3 +126,11 @@ print('Predict take time around {} seconds'.format(pred_etime-pred_stime))
 
 python3 ~/project/my-recognition-python/my-recognition.py \
 --network=resnet-50 ~/project/my-recognition-python/black_bear.jpg
+
+export DOCKER_COMPOSE_VERSION=1.27.4
+sudo apt-get install libhdf5-dev
+sudo apt-get install libssl-dev
+sudo pip3 install docker-compose=="${DOCKER_COMPOSE_VERSION}"
+pip install docker-compose
+
+sudo -H pip install -U jetson-stats

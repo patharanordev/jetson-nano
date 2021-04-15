@@ -383,6 +383,22 @@ Test: [190/200]  Time  0.213 ( 0.058)  Loss 1.7077e-02 (2.2238e-02)  Acc@1 100.0
 saved checkpoint to:  models/fruit_apple/checkpoint.pth.tar
 ```
 
+### **docker-compose**
+
+```bash
+export DOCKER_COMPOSE_VERSION=1.27.4
+sudo apt-get install libhdf5-dev
+sudo apt-get install libssl-dev
+sudo pip3 install docker-compose=="${DOCKER_COMPOSE_VERSION}"
+pip install docker-compose
+```
+
+### **jtop**
+
+```bash
+sudo -H pip install -U jetson-stats
+```
+
 ### **Object detection**
 
 Coming soon...
